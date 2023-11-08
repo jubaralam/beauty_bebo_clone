@@ -1,0 +1,87 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.posterImage a img {
+  width: 100%;
+}
+.search {
+  border: 1px solid rgb(200, 199, 199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.search input,
+select {
+  width: 270px;
+  height: 30px;
+color: gray;
+  margin: 5px;
+  border: none;
+}
+.search input {
+  border-left: 1px solid black;
+}
+.search select:focus,
+input:focus {
+  outline: none;
+}
+.search button {
+  background-color: rgb(221, 5, 135);
+  border: none;
+}
+.search button img {
+  width: 40px;
+}
+.subHeder {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px 20px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+.icons a {
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.icons img:hover {
+  background-color: blue;
+}
+
+.nav{
+  width: 100%;
+
+  background-color: rgb(221, 5, 135);
+}
+.nav select{
+  width: fit-content;
+}
