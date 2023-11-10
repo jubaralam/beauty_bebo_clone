@@ -1,0 +1,42 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .navContainer {
+    padding: 5px 5%;
+    width: 100vw;
+    background-color: rgb(221, 2, 133);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+  }
+  .elements {
+    padding: 5px 10px;
+
+    font-size: 1.1rem;
+  }
+  .navItems ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cartComp {
+    width: 13rem;
+    background-color: rgba(168, 5, 103, 0.986);
+    font-size: 1.5rem;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+  }
+  .cartComp span {
+    font-size: 0.8rem;
+  }
+  .cartTitle{
+  
+  }

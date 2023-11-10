@@ -1,23 +1,47 @@
-import React from 'react'
-import '../index.css';
 
-const Nav = () => {
+import './Navbar.css'
+import react from "react";
+import { useState } from "react";
+
+function Nav() {
+  const [cartAmount, setCartAmount] = useState(1000);
+  const navItem = [
+    "MACKUP",
+    "SKIN",
+    "HAIR",
+    " PERSONAL CARE",
+    "MOM & BABY PRODUCT",
+    "FRAGRANCE",
+    "WOMEN FASHION",
+    "BRANDS",
+  ];
+
   return (
-    <div className='nav'>
-      <div className="manu">
-      <select placeholder='Mackup'> <option value="Mackup">Mackup</option></select>
-      <select placeholder='Skin'><option value="Skin">Skin</option></select>
+    <div className="navContainer">
+      <div className="navItems">
+        <ul>
 
-      <select placeholder='Hair'><option value="Hair">Hair</option></select>
-      <select placeholder='Personal Care'><option value="PersonalCare">Personal Care</option></select>
-      <select placeholder='Mom & Baby Care'><option value="Mom-baby-care">Mom & Baby Care</option></select>
-      <select placeholder='Fragrance'><option value="Fragrance">Fragrance</option></select>
-      <select placeholder='Women Fashion'><option value="Women-fashion">Women Fashion</option></select>
-      <select placeholder='Women Brands'><option value="Women-brand">Women Brand</option></select>
+        {navItem.map((e) => {
+          return <li className="elements">{e} </li>;
+        })}
+        </ul>
       </div>
-      <div className="cart"></div>
+      <div className="cartComp">
+  
+         
+          <img
+            width="25"
+            height="25"
+            src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-bag-airport-kiranshastry-solid-kiranshastry.png"
+            alt="external-bag-airport-kiranshastry-solid-kiranshastry"
+          />
+         <div className="cartTitle">
+          My Cart <span> - ₹{cartAmount}</span>
+     
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Nav
+export default Nav;
