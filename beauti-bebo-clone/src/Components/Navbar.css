@@ -40,3 +40,24 @@
   .cartTitle{
   
   }
+
+
+  .subNavbar ul li{
+    
+    border: 1px solid rgb(0, 0, 0);
+margin: 20px auto;
+
+  }
+  .subNav img{
+    /* width: 3.5rem; */
+    height: 4rem;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: pink;
+  }
+ 
+  .navbar:hover{
+    background-color: rgb(228, 7, 154);
+
+  }

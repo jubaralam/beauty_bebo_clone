@@ -84,4 +84,10 @@ input:focus {
 }
 .nav select{
   width: fit-content;
+} 
+
+.posterImg img{
+  width: 87%;
+  margin: 20px auto;
+
 }

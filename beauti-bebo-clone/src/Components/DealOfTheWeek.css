@@ -1,0 +1,107 @@
+.heading{
+    display: inline-block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: 3px solid  rgb(221,2,133);
+    text-align: start;
+    font-size: 1.5rem;
+}
+/* .heading:after {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    content: ''; 
+}
+*/
+
+.container{
+    width: 87%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 10px auto ;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+}
+.card{
+    width: 260px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 7.5rem 20px 0px;
+}
+.card img{
+    padding: 10px;
+    
+}
+.productImgage{
+    height: 350px;
+}
+.card h2{
+    font-size: 1rem;
+    text-align: start;
+    padding: 2px 3px;
+    width: 100%;
+    height: 4.5rem;
+    border: 1px solid red;
+}
+.card h2:hover{
+    color:  rgb(221,2,133);
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  
+
+}
+.btn button{
+    padding: 3px 15px;
+    color: white;
+    margin: 5px;
+}
+.button{
+    background-color: rgb(221,2,133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-radius: 5px 0 0 5px;
+    
+}
+.button:hover{
+    background-color: rgb(255, 4, 155);
+    
+}
+.button img{
+    width: 100px;
+    
+}
+.btn img{
+width: 40px;
+   
+}
+.btn img:hover{
+    background-color: rgb(255, 4, 155);
+    border-radius: 0 5px 5px 0;
+
+}
+.mrp{
+    
+    color:gray;
+}
+.actualPrice{
+    color:  rgb(221,2,133);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 5px;
+}
+.discount{
+    color: green;
+    font-weight: 600;
+}

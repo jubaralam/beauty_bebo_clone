@@ -1,0 +1,46 @@
+.d-flex{
+    display: flex;
+
+}
+.a-center{
+    align-items: center;
+
+}
+.j-center{
+    justify-content: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-around{
+    justify-content: space-around;
+}
+.j-evenly{
+    justify-content: space-evenly;
+}
+.mx-1{
+margin: 0 1rem;
+}
+.my-1{
+    margin: 1rem 0;
+}
+.px-5{
+    padding: 0 10px;
+}
+.py-10{
+    padding: 10px 0;
+}
+.py-5{
+    padding: 10px 0;
+}
+.px-10{
+    padding: 10px 10px;
+}
+.mx-auto{
+
+    margin: 0 auto;
+}
+.full-w{
+    width: 87%;
+    
+}
