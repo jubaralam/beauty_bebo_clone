@@ -33,7 +33,7 @@ const HeroSec = () => {
     }else{
 setindex(0)
     }
-   }, 13000);
+   }, 3000);
 const active ={
     // width: "20px",
     backgroundColor: 'rgb(221,2,133)'
