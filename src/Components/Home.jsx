@@ -5,7 +5,7 @@ import Nav, { SubNavbar } from './Nav'
 import DealOFTheWeek from './DealOFTheWeek'
 import Poster from './Poster'
 import Login from './Login'
-import ProductPage from './ProductPage'
+
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       <Poster />
 <SubNavbar />
       <Login />
-      < ProductPage/>
+
     </div>
   )
 }
