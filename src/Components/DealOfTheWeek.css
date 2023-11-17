@@ -21,7 +21,7 @@
     width: 87%;
     display: flex;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: space-between;
     margin: 10px auto ;
   flex-wrap: wrap;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -32,6 +32,7 @@
     width: 260px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin: 0 7.5rem 20px 0px;
+ 
 }
 .card img{
     padding: 10px;
